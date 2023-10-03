@@ -8,8 +8,8 @@ import Footer from '@/components/footer'
 import NavBar from '@/components/navBar'
 
 const inter = Inter({ subsets: ['latin'] })
-const cormorant = Cormorant({ subsets: ['latin'], variable: '--font-cormorant' });
-const catamaran = Catamaran({ subsets: ['latin'], variable: '--font-catamaran' });
+// const cormorant = Cormorant({ subsets: ['latin'], variable: '--font-cormorant' });
+// const catamaran = Catamaran({ subsets: ['latin'], variable: '--font-catamaran' });
 
 export const metadata: Metadata = {
   title: 'Celestial',
@@ -31,5 +31,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-// ${ cormorant.variable } ${ catamaran.variable } 

@@ -3,7 +3,7 @@ import  { FooterCategory } from '@/lib/types'
 
 export const footerContent: FooterCategory[] = [
   {
-    id: `123`,
+    id: `clnavq5vd000208la9brzdjuf`,
     category: `Platform`,
     links: [
       {
@@ -33,7 +33,7 @@ export const footerContent: FooterCategory[] = [
     ],
   },
   {
-    id: `123`,
+    id: `clnavqbez000308la4xxahzm4`,
     category: `Support`,
     links: [
       {
@@ -59,7 +59,7 @@ export const footerContent: FooterCategory[] = [
     ],
   },
   {
-    id: `123`,
+    id: `clnavqfd7000408la5beo10r7`,
     category: `Features`,
     links: [
       {
@@ -85,7 +85,7 @@ export const footerContent: FooterCategory[] = [
     ],
   },
   {
-    id: `123`,
+    id: `clnavqjio000508lahdxzaegn`,
     category: `Compare`,
     links: [
       {
@@ -111,7 +111,7 @@ export const footerContent: FooterCategory[] = [
     ],
   },
   {
-    id: `123`,
+    id: `clnavqngv000608ladb4y6n4v`,
     category: `Resources`,
     links: [
       {
@@ -141,7 +141,7 @@ export const footerContent: FooterCategory[] = [
     ],
   },
   {
-    id: `123`,
+    id: `clnavqr5z000708lag2daa6an`,
     category: `Celestial`,
     links: [
       {
@@ -171,7 +171,7 @@ export const footerContent: FooterCategory[] = [
     ],
   },
   {
-    id: `123`,
+    id: `clnavqvf5000808lacr111rbo`,
     category: `Social`,
     links: [
       {
