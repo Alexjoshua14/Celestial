@@ -52,6 +52,10 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        // sans: ['var(--font-cormonant'],
+        // serif: ['var(--font-catamaran)'],
+      },
       keyframes: {
         "accordion-down": {
           from: { height: 0 },

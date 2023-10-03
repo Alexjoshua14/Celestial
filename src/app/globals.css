@@ -6,8 +6,18 @@ body {
   @apply bg-background-primary text-foreground-primary;
 }
 
+/* Text Related Classes */
+
+.fainter {
+  @apply uppercase text-yellow-950 opacity-60 text-xs font-sans;
+}
+
 .title {
-  @apply uppercase text-yellow-950 opacity-60 text-xs tracking-widest font-sans;
+  @apply fainter tracking-widest;
+}
+
+.brand {
+  @apply fainter tracking-wide;
 }
 
 .headingContainer {
@@ -21,6 +31,24 @@ body {
 .subheader {
   @apply text-lg text-gray-500;
 }
+
+.link {
+  @apply hover:text-primary-800;
+}
+
+.navLink {
+  @apply link text-yellow-950 opacity-80 font-light text-base;
+}
+
+.footerLink {
+  @apply text-yellow-950 opacity-80 font-light underline underline-offset-8 link;
+}
+
+.clickable {
+  @apply px-4 py-2 hover:bg-yellow-800 hover:bg-opacity-10 rounded-full transition-all;
+}
+
+/** Glassmorphism Effect */
 
 .glassmorphism {
   @apply backdrop-blur border-[1px] border-white shadow-md;
@@ -37,6 +65,8 @@ body {
 .glassmorphsim-2 {
   @apply glassmorphism bg-opacity-80;
 }
+
+/** Image Placeholder */
 
 .filler-image {
   @apply bg-gradient-to-tr from-primary-800 to-accent-500 glassmorphism opacity-60 rounded-lg;

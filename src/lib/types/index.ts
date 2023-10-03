@@ -1,6 +1,20 @@
 
 import { IconType } from 'react-icons'
 
+export type LinkType = {
+  href: string,
+  text: string
+}
+export interface SubCategory {
+  title: string,
+  links: LinkType[]
+}
+
+export interface DropMenuItemContent {
+  id: string,
+  title: string,
+  subCategories?: SubCategory[],
+}
 export interface InfoCardContent {
   id: string,
   icon: IconType,
@@ -23,4 +37,10 @@ export interface Product {
   linkText: string,
   link: string,
   reviews: Review[]
+}
+
+export interface FooterCategory {
+  id: string,
+  category: string,
+  links: LinkType[]
 }

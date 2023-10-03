@@ -1,10 +1,12 @@
 import NavBar from '@/components/navBar'
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Cormorant, Catamaran } from 'next/font/google'
 import Footer from '@/components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
+const cormorant = Cormorant({ subsets: ['latin'], variable: '--font-cormorant' });
+const catamaran = Catamaran({ subsets: ['latin'], variable: '--font-catamaran' });
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -26,3 +28,5 @@ export default function RootLayout({
     </html>
   )
 }
+
+// ${ cormorant.variable } ${ catamaran.variable } 
