@@ -20,7 +20,7 @@ const Hero: FC<HeroProps> = ({ }) => {
           and efficient delivery to your intergalatic audience.
           Your celestial creations, your control.
         </p>
-        <button className="bg-primary-500 w-fit px-8 py-4 glassmorphism-1 rounded-full text-white text-lg font-light tracking-wide">
+        <button className="bg-primary-800 w-fit px-8 py-4 glassmorphism-1 rounded-full text-white text-lg font-light tracking-wide">
           Get your free account
         </button>
       </article>

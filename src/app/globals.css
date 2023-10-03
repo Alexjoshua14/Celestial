@@ -39,5 +39,5 @@ body {
 }
 
 .filler-image {
-  @apply bg-gradient-to-tr from-primary-500 to-accent-500 glassmorphism opacity-60 rounded-lg;
+  @apply bg-gradient-to-tr from-primary-800 to-accent-500 glassmorphism opacity-60 rounded-lg;
 }

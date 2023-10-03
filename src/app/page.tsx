@@ -1,7 +1,8 @@
+
 import Hero from '@/components/hero'
+import JoinNow from '@/components/joinNow'
 import Overview from '@/components/overview'
 import ProductOptions from '@/components/productOptions'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <Overview />
       <ProductOptions />
+      <JoinNow />
     </main>
   )
 }

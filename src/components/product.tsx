@@ -22,7 +22,7 @@ const Product: FC<ProductProps> = ({ product, className, ...props }) => {
           <p className="subheader">
             {product.description}
           </p>
-          <Link href={product.link} className="text-primary-500 font-medium" >
+          <Link href={product.link} className="text-primary-800 font-medium" >
             {`${product.linkText} ->`}
           </Link>
         </div>

@@ -13,13 +13,22 @@ module.exports = {
   theme: {
     colors: {
       primary: {
-        '500': '#0081A7',
+        '800': '#0081a7',
+        '700': '#0091ba',
+        '600': '#16a4cc',
+        '500': '#23b2d9',
+        '400': '#41bddb',
+        '300': '#5fc9de',
+        '200': '#88d9e6',
+        '100': '#b6e8ef',
+        '50': '#e2f6f8'
       },
       accent: {
         '500': '#8ACB88',
       },
       background: {
-        'primary': '#F5F5F5'
+        'primary': '#F5F5F5',
+        'accent': '#f8e7e5'
       },
       foreground: {
         'primary': '#252627'
