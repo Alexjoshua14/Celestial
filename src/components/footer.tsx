@@ -29,7 +29,9 @@ const Footer: FC<FooterProps> = ({ className, ...props }) => {
       </div>
       <div className="w-full flex items-center justify-start brand gap-3">
         <p>
-          Celestial Labs, Inc. © 2023
+          <s>
+            Celestial Labs, Inc. © 2023
+          </s>
         </p>
         <Link href="/" className="link">
           <p className="underline underline-offset-4">

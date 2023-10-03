@@ -26,9 +26,11 @@ const NavBar: FC<NavBarProps> = ({ ...props }) => {
     )
     : (
       <section className="z-40 h-[4.5rem] w-full sticky top-0 backdrop-blur-2xl flex items-center justify-between px-8 py-4 transition-all" {...props}>
-        <h1 className="text-primary-800 font-bold text-2xl">
-          celestial
-        </h1>
+        <Link href="/" className="text-primary-800 hover:text-primary-900 transition-all">
+          <h1 className=" font-bold text-2xl">
+            celestial
+          </h1>
+        </Link>
         <div className="flex gap-2 text-lg font-light">
           <Link href="/" className="clickable">
             <p>

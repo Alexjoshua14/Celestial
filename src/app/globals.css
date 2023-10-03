@@ -37,7 +37,7 @@ body {
 }
 
 .navLink {
-  @apply link text-yellow-950 opacity-80 font-light text-base;
+  @apply link text-yellow-950 opacity-80 font-sans font-light;
 }
 
 .footerLink {

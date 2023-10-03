@@ -13,6 +13,7 @@ module.exports = {
   theme: {
     colors: {
       primary: {
+        '900': '#006087',
         '800': '#0081a7',
         '700': '#0091ba',
         '600': '#16a4cc',
