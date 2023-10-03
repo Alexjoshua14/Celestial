@@ -12,8 +12,8 @@ interface ProductProps extends React.HTMLAttributes<HTMLDivElement> {
 
 const Product: FC<ProductProps> = ({ product, className, ...props }) => {
   return (
-    <div className={cn("flex flex-col gap-24", className)} {...props}>
-      <div className="grid grid-cols-2">
+    <div className={cn("flex flex-col gap-14 sm:gap-24", className)} {...props}>
+      <div className="flex flex-col-reverse gap-14 sm:gap-0 sm:grid sm:grid-cols-2">
         <div className="flex flex-col gap-4">
           <p className="title">
             {product.product}
@@ -28,8 +28,8 @@ const Product: FC<ProductProps> = ({ product, className, ...props }) => {
             {`${product.linkText} ->`}
           </Link>
         </div>
-        <div className="p-14">
-          <div className="w-full h-full filler-image" />
+        <div className="sm:p-14">
+          <div className="w-full h-full aspect-video filler-image" />
         </div>
       </div>
       <div className="flex flex-col gap-4 text-center">
@@ -40,10 +40,10 @@ const Product: FC<ProductProps> = ({ product, className, ...props }) => {
           <IoStar size={24} />
           <IoStar size={24} />
         </div>
-        <p className="text-xl leading-relaxed font-serif">
+        <p className="text-lg sm:text-xl leading-relaxed font-serif">
           {product.reviews[0].review}
         </p>
-        <p className="text-lg text-gray-500 font-light">
+        <p className="sm:text-lg text-gray-500 font-light">
           {`— ${product.reviews[0].reviewer}`}
         </p>
       </div>

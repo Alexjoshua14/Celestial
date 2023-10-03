@@ -6,12 +6,12 @@ interface HeroProps {
 
 const Hero: FC<HeroProps> = ({ }) => {
   return (
-    <section className="grid grid-cols-2">
-      <article className="w-full flex flex-col pr-14 gap-3">
+    <section className="flex flex-col sm:grid sm:grid-cols-2">
+      <article className="w-full flex flex-col sm:pr-14 gap-3 order-2 sm:order-1 sm:row-start-1">
         <p className="title">
           Digital Products
         </p>
-        <h1 className="text-4xl font-medium leading-relaxed font-serif">
+        <h1 className="text-3xl sm:text-4xl font-medium leading-relaxed font-serif">
           Sell online courses, podcasts, webinars, radio transmissions, maps, and anything you can think of on Celestial
         </h1>
         <p className="text-lg font-light text-gray-500 leading-loose">
@@ -24,7 +24,7 @@ const Hero: FC<HeroProps> = ({ }) => {
           Get your free account
         </button>
       </article>
-      <div className="w-full h-full flex items-center justify-center p-10">
+      <div className="w-full h-fit sm:h-full flex items-center justify-center p-10">
         <div className="w-full aspect-square filler-image">
 
         </div>

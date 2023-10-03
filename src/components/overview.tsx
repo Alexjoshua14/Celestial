@@ -9,7 +9,7 @@ interface OverviewProps {
 
 const Overview: FC<OverviewProps> = ({ }) => {
   return (
-    <section className="text-center flex flex-col gap-20">
+    <section className="text-center flex flex-col gap-14 sm:gap-20">
       <div className="headingContainer">
         <h2 className="header">
           Create, Relax, Repeat – Celestial Manages the Detail
@@ -19,7 +19,7 @@ const Overview: FC<OverviewProps> = ({ }) => {
           Celestial takes care of the intricate details, so you can focus on your intergalactic creations.
         </p>
       </div>
-      <div className="flex gap-8">
+      <div className="flex flex-col sm:flex-row gap-14 sm:gap-8">
         {infoCardContent.map((info) => (
           <InfoCard info={info} key={info.id} />
         ))}

@@ -25,7 +25,7 @@ body {
 }
 
 .header {
-  @apply text-3xl font-serif;
+  @apply text-xl sm:text-3xl font-serif;
 }
 
 .subheader {
