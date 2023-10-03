@@ -1,10 +1,13 @@
-import { FooterCategory } from '@/lib/types'
 import { FC } from 'react'
+
+import Link from 'next/link'
+
 import FooterSection from './footerSection'
 import { Accordion } from './ui/accordion'
 import { footerContent } from '@/data/footerContent'
+import { FooterCategory } from '@/lib/types'
 import { cn } from '@/lib/utils'
-import Link from 'next/link'
+
 
 interface FooterProps extends React.HTMLAttributes<HTMLDivElement> {
 

@@ -1,4 +1,5 @@
 import { FC } from 'react'
+
 import InfoCard from './infoCard'
 import { infoCardContent } from '@/data/infoCards'
 

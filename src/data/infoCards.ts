@@ -1,5 +1,6 @@
-import { InfoCardContent } from "@/lib/types";
 import { HiOutlineShoppingCart, HiOutlineLogin, HiOutlineCloudUpload } from "react-icons/hi";
+
+import { InfoCardContent } from "@/lib/types";
 
 
 

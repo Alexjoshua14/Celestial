@@ -1,6 +1,7 @@
 import { FC } from 'react'
-import { contentOptions } from '@/data/products'
+
 import Product from './product'
+import { contentOptions } from '@/data/products'
 
 interface ProductOptionsProps {
 

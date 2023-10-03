@@ -1,12 +1,13 @@
 
-import React, { FC } from 'react'
-import Link from 'next/link'
 import * as AccordionPrimitive from "@radix-ui/react-accordion"
+import Link from 'next/link'
+import React, { FC } from 'react'
 
-import { AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
-import { DropMenuItemContent } from '@/lib/types'
-import { Separator } from './ui/separator'
+
 import SubCategory from './subCategory'
+import { AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
+import { Separator } from './ui/separator'
+import { DropMenuItemContent } from '@/lib/types'
 
 interface DropMenuItemProps extends React.HTMLAttributes<AccordionPrimitive.AccordionItemProps> {
   section: DropMenuItemContent

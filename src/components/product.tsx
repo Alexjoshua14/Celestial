@@ -1,8 +1,10 @@
-import { Product } from '@/lib/types'
-import { cn } from '@/lib/utils'
 import Link from 'next/link'
 import { FC } from 'react'
 import { IoStar } from 'react-icons/io5'
+
+import { Product } from '@/lib/types'
+import { cn } from '@/lib/utils'
+
 
 interface ProductProps extends React.HTMLAttributes<HTMLDivElement> {
   product: Product

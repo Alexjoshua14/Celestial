@@ -1,9 +1,11 @@
 'use client'
 
 import { FC } from 'react'
+
+import Link from 'next/link'
+
 import { AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
 import { FooterCategory } from '@/lib/types'
-import Link from 'next/link'
 
 interface FooterSectionProps {
   section: FooterCategory,

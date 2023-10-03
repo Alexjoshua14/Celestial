@@ -1,5 +1,6 @@
 
-import { FC, HTMLProps, ReactHTMLElement } from 'react'
+import { FC } from 'react'
+
 import { InfoCardContent } from '@/lib/types'
 import { cn } from '@/lib/utils'
 

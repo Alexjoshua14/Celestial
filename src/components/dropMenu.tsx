@@ -1,9 +1,11 @@
 import { FC } from 'react'
-import SignUp from './signUp'
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
-import DropMenuItem from './dropMenuItem'
-import { dropMenuContent } from '@/data/dropMenuContent'
+
 import { IoClose } from 'react-icons/io5'
+
+import DropMenuItem from './dropMenuItem'
+import SignUp from './signUp'
+import { Accordion } from './ui/accordion'
+import { dropMenuContent } from '@/data/dropMenuContent'
 
 interface DropMenuProps {
   close: Function

@@ -1,9 +1,12 @@
 'use client'
 
 import { FC, useCallback, useState } from 'react'
-import { IoChevronDown } from 'react-icons/io5'
-import DropMenu from './dropMenu';
+
 import Link from 'next/link';
+
+import { IoChevronDown } from 'react-icons/io5'
+
+import DropMenu from './dropMenu';
 
 interface NavBarProps extends React.HTMLAttributes<HTMLElement> {
 
