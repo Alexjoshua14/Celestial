@@ -4,31 +4,12 @@ import Link from 'next/link'
 import * as AccordionPrimitive from "@radix-ui/react-accordion"
 
 import { AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
-import { DropMenuItemContent, SubCategory } from '@/lib/types'
+import { DropMenuItemContent } from '@/lib/types'
 import { Separator } from './ui/separator'
+import SubCategory from './subCategory'
 
 interface DropMenuItemProps extends React.HTMLAttributes<AccordionPrimitive.AccordionItemProps> {
   section: DropMenuItemContent
-}
-
-const SubCategory = ({ subCategoryContent }: { subCategoryContent: SubCategory }) => {
-  return (
-    <div className="flex flex-col gap-3">
-      <h2 className="title font-medium">
-        {subCategoryContent.title}
-      </h2>
-      <ul className="flex flex-col gap-3">
-        {subCategoryContent.links?.map((link) => (
-          <li key={link.text}>
-            <Link href={link.href} className="navLink">
-              {link.text}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
-
-  )
 }
 
 const DropMenuItem: FC<DropMenuItemProps> = ({ section }) => {
@@ -41,7 +22,7 @@ const DropMenuItem: FC<DropMenuItemProps> = ({ section }) => {
           </p>
         </AccordionTrigger>
         <AccordionContent>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-6">
             {section.subCategories.map((content) => (
               <React.Fragment key={content.title}>
                 <SubCategory subCategoryContent={content} />
